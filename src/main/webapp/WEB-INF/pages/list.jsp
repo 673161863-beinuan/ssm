@@ -7,12 +7,14 @@
 <body>
     <table border="1">
         <tr>
+            <td>id</td>
             <td>name</td>
             <td>email</td>
             <td>gender</td>
         </tr>
         <c:forEach items="${addEmpls}" var="empl">
             <tr>
+                <td>${empl.id}</td>
                 <td>${empl.lastName}</td>
                 <td>${empl.email}</td>
                 <td>${empl.gender}</td>
